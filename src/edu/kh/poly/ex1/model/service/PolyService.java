@@ -173,7 +173,7 @@ public class PolyService {
 		// 해결방법 : instanceof와 같이 사용해야한다
 		
 		if(c1 instanceof Spark) {
-			Spark s1 = (spark)c1; // 다운캐스팅
+			Spark s1 = (Spark)c1; // 다운캐스팅
 			System.out.println("성공");
 		} else {
 			System.out.println("실패 (Spark 타입이 아님)");
